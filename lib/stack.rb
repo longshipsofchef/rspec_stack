@@ -3,5 +3,11 @@ class Stack
     def initialize(values = [])
         @values = values
     end
+    def push_value(x)
+        @values.push(x)
+    end
+    def pop_value
+        @values.pop
+    end
         
 end
