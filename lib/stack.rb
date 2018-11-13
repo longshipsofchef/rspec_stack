@@ -9,5 +9,8 @@ class Stack
     def pop_value
         @values.pop
     end
+    def small_stack?
+        @values.length < 5
+    end
         
 end

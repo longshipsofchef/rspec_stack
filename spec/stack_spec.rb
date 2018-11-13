@@ -17,5 +17,11 @@ end
         expect(subject.values.size).to eq(0)
     end
 end
+    describe '#small_stack?' do
+    context 'if stack is less than 5' 
+        it 'should return true' do
+            expect(subject).to be_small_stack
+        end
+    end
 
 end
